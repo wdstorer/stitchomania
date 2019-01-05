@@ -1,0 +1,119 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Stitchmania.StitchCounter"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:ad="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" Visibility="Visible">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="AdPanel" Grid.Row="0" Margin="0,0,0,0">
+            <ad:AdControl VerticalAlignment="Bottom" HorizontalAlignment="Center" Name="adControl1" Width="480" AdUnitId="70783" ApplicationId="4d6806ca-9180-4b71-a05c-97e32392a888" />
+        </StackPanel>
+        <Canvas Grid.Row="1" Grid.RowSpan="2" Height="212" VerticalAlignment="Top">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/Stitchmania;component/Media/header4.png" />
+            </Canvas.Background>
+        </Canvas>
+        <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="0,0,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="STITCHO'MANIA" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="stitch counter" Margin="9,25,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="2" Margin="12,-25,12,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="tbContent" />
+                <toolkit:ListPicker Name="lstProjects" Header="project" Width="375" ItemCountThreshold="7" SelectionChanged="lstProjects_SelectionChanged" BorderBrush="Black" FullModeHeader="Projects">
+                    <toolkit:ListPicker.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Name}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </toolkit:ListPicker.ItemTemplate>
+                    <toolkit:ListPicker.FullModeItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Name}" Margin="0,0,0,10" FontSize="40" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </toolkit:ListPicker.FullModeItemTemplate>
+                </toolkit:ListPicker>
+                <Button Name="btnEdit" VerticalAlignment="Top" Margin="0,50,0,0" HorizontalAlignment="Left" Height="55" Width="55" Click="btnEdit_Click">
+                    <Button.Background>
+                        <SolidColorBrush Color="{StaticResource PhoneContrastBackgroundColor}"/>
+                    </Button.Background>
+                    <Button.OpacityMask>
+                        <ImageBrush Stretch="Fill" ImageSource="/Media/appbar.edit.rest.png"/>
+                    </Button.OpacityMask>
+                </Button>
+                <!--<Image Name="imgEdit" Source="/Media/appbar.edit.rest.blue.png" Margin="0,30,0,0" MouseLeftButtonUp="imgEdit_MouseLeftButtonUp" ></Image>-->
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="ContentPanel2" Grid.Row="3">
+            <TextBlock Name="tbCounter" Text="{Binding CurrentRow}" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="275" MouseLeftButtonUp="tbCounter_MouseLeftButtonUp" Foreground="{StaticResource PhoneAccentBrush}" />
+            <TextBlock Name="tbTotalRows" Text="{Binding Rows}"  Margin="0,25,35,0" HorizontalAlignment="Right" FontSize="25" Visibility="Visible" Foreground="{StaticResource PhoneAccentBrush}"></TextBlock>
+            <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal">
+                <TextBlock Name="tbLastUpdate" Text="{Binding LastUpdate}" />
+                <TextBlock Name="tbProjectID" Text="{Binding ProjectID}" Visibility="Collapsed"/>
+                <TextBlock Name="tbProjectName" Text="{Binding Name}" Visibility="Collapsed"/>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="ContentPanel3" Grid.Row="3" Visibility="Collapsed">
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,30,0,0" >
+                <TextBlock Name="tbEditProject" Text="EDIT PROJECT" FontWeight="Bold" />
+                <TextBlock Text="project name" />
+                <TextBox Name="tbxEditProjectName" Width="350"/>
+                <TextBlock Text="current row" />
+                <TextBox Name="tbxEditStartingRow" Text="0" Width="350"  InputScope="Number" Visibility="Visible" />
+                <TextBlock Text="current # of pattern repeats" Visibility="Visible" />
+                <TextBox Name="tbxEditTotalRows" Text="0" Width="350" InputScope="Number" Visibility="Visible" />
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="ContentPanel4" Grid.Row="3" Visibility="Collapsed">
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,20,0,0">
+                <TextBlock Name="tbFirstProjectMessage" Margin="0,0,0,10" Text="Enter a project name below and press the save button on the application bar to begin using the stitch counter!" TextWrapping="Wrap" Foreground="{StaticResource PhoneAccentBrush}" TextAlignment="Center"></TextBlock>
+                <TextBlock Name="tbAddProject" Text="ADD PROJECT" FontWeight="Bold" />
+                <TextBlock Text="project name" />
+                <TextBox Name="tbxAddProjectName" Width="350" />
+                <TextBlock Text="row" Visibility="Collapsed" />
+                <TextBox Name="tbxAddStartingRow" Visibility="Collapsed" Width="350" Text="0" InputScope="Number" />
+                <TextBlock Text="number of pattern repeats" Visibility="Collapsed" />
+                <TextBox Name="tbxAddTotalRows" Visibility="Collapsed" Width="350" Text="0" InputScope="Number" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="False">
+            <shell:ApplicationBarIconButton IconUri="/Media/appbar.down.rest.png" Text="decrease" Click="AppBarDecrease_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Media/appbar.reset.rest.png" Text="reset" Click="AppBarReset_Click"/>
+            <!--<shell:ApplicationBarIconButton IconUri="/Media/appbar.transport.ff.rest.png" Text="Increase" Click="AppBarIncrease_Click" />-->
+            <!--<shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>-->
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

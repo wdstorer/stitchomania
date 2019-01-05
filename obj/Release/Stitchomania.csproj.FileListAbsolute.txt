@@ -1,0 +1,137 @@
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Stitchmania.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Stitchmania.pdb
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\AppManifest.xaml
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\ResolveAssemblyReference.cache
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\App.g.i.cs
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\About.g.i.cs
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\StitchGallery.g.i.cs
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\StitchIndex.g.i.cs
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\Stitchmania.g.resources
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\Stitchmania.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\Stitchmania.pdb
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\XapCacheFile.xml
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Stitchomania.xap
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\StitchCounter.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Stitchmania.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Stitchmania.pdb
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\AppManifest.xaml
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Stitchomania.xap
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\ResolveAssemblyReference.cache
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\App.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\About.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\HomePage.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\StitchCounter.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\StitchGallery.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\StitchIndex.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\Stitchmania.g.resources
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\Stitchmania.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\Stitchmania.pdb
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\XapCacheFile.xml
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\Bin\Release\IsolatedStorageExplorer.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\IsolatedStorageExplorer.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\TwitterNews.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\TwitterNews.g.i.cs
+C:\Users\storer_w\Documents\Visual Studio 2010\Projects\Stitchmania\obj\Release\MainMenu.g.i.cs
+C:\Users\princew\Documents\Visual Studio 2010\Projects\Stitchmania\Stitchmania\obj\Release\MainMenu.g.i.cs
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Stitchmania.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Stitchmania.pdb
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\AppManifest.xaml
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Stitchomania.xap
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Phone.Controls.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Maps.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Phone.Controls.xml
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Advertising.Mobile.xml
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\Microsoft.Phone.Controls.Maps.xml
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\da-DK\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\de-DE\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\el-GR\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\en-GB\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\es-ES\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\it-IT\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\Bin\Release\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\App.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\About.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\MainMenu.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\StitchCounter.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\StitchGallery.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\StitchIndex.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\TwitterNews.g.cs
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\Stitchmania.g.resources
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\Stitchmania.dll
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\Stitchmania.pdb
+D:\Projects\MicrosoftDev\Stitchmania\obj\Release\XapCacheFile.xml

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<ArrayOfPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Page>
+<Stitches>
+<Item>
+<StitchName>Stitch01</StitchName> 
+<Image>Media/stitch02.jpg</Image> 
+<ImageURI>Media/stitch02.jpg</ImageURI> 
+<Description>BlahBlahBlah</Description> 
+<Difficulty>Easy</Difficulty> 
+<Favorite>true</Favorite> 
+</Item>
+</Stitches>
+</Page>
+  <Page>
+    <Stitches>
+      <Item>
+        <StitchName>Stitch02</StitchName>
+        <Image>Media/stitch02.jpg</Image>
+        <ImageURI>Media/stitch02.jpg</ImageURI>
+        <Description>BlahBlahBlah</Description>
+        <Difficulty>Easy</Difficulty>
+        <Favorite>true</Favorite>
+      </Item>
+    </Stitches>
+  </Page>
+  <Page>
+    <Stitches>
+      <Item>
+        <StitchName>Stitchlkj03</StitchName>
+        <Image>Media/stitch02.jpg</Image>
+        <ImageURI>Media/stitch02.jpg</ImageURI>
+        <Description>BlahBlahBlah</Description>
+        <Difficulty>Easy</Difficulty>
+        <Favorite>true</Favorite>
+      </Item>
+    </Stitches>
+  </Page>
+</ArrayOfPage>

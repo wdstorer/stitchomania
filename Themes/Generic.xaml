@@ -1,0 +1,33 @@
+﻿<ResourceDictionary 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Stitchmania"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  
+<Style TargetType="local:DeferredLoadContentControl">
+  <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+  <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+  <Setter Property="Template">
+    <Setter.Value>
+      <ControlTemplate TargetType="local:DeferredLoadContentControl">
+        <Grid>            
+          <ContentPresenter  x:Name="contentPresenter"
+                              Content="{TemplateBinding Content}"
+                              ContentTemplate="{TemplateBinding ContentTemplate}"
+                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                              Margin="{TemplateBinding Padding}"/>
+                        <StackPanel x:Name="loadingIndicator">
+                            <StackPanel.Background>
+                                <ImageBrush x:Name="spBackground" ImageSource="/Stitchmania;component/Media/GallerySplash02.jpg" Opacity=".5" />
+                            </StackPanel.Background>
+                            <Image />
+                            <TextBlock x:Name="tbloading"
+                      Text="Loading Gallery..."
+                      VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,350,0,0"/>
+                        </StackPanel>
+        </Grid>
+      </ControlTemplate>
+    </Setter.Value>
+  </Setter>
+</Style>
+</ResourceDictionary>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20424E86-029E-4274-8E6A-7496E49EDE13}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stitchmania</RootNamespace>
+    <AssemblyName>Stitchmania</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Stitchomania.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Stitchmania.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IsolatedStorageExplorer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Advertising.Mobile.UI">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Advertising SDK for Windows Phone 7\Microsoft.Advertising.Mobile.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeferredLoadContentControl.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page.cs" />
+    <Compile Include="SMConstants.cs" />
+    <Compile Include="StitchCounter.xaml.cs">
+      <DependentUpon>StitchCounter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StitchGallery.xaml.cs">
+      <DependentUpon>StitchGallery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StitchIndex.xaml.cs">
+      <DependentUpon>StitchIndex.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TwitterNews.xaml.cs">
+      <DependentUpon>TwitterNews.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StitchCounter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StitchGallery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StitchIndex.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TwitterNews.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon3.png" />
+    <Content Include="ApplicationIcon4.png" />
+    <Content Include="ApplicationIcon5.png" />
+    <Content Include="Background3.png" />
+    <Content Include="Background4.png" />
+    <Content Include="Background5.png" />
+    <Content Include="Data\StitchManiaCore.xml" />
+    <Content Include="Media\appbar.cancel.rest.png" />
+    <Content Include="Media\appbar.delete.rest.png" />
+    <Content Include="Media\appbar.down.rest.png" />
+    <Content Include="Media\appbar.feature.email.rest.png" />
+    <Content Include="Media\appbar.questionmark.rest.png" />
+    <Content Include="Media\appbar.reset.rest.png" />
+    <Content Include="Media\appbar.save.rest.png" />
+    <Content Include="Media\appbar.transport.rew.rest.png" />
+    <Content Include="Media\appbar.edit.rest.png" />
+    <Content Include="Media\appbar.new.rest.png" />
+    <Resource Include="Media\stitch15.jpg" />
+    <Resource Include="Media\stitch16.jpg" />
+    <Resource Include="Media\stitch17.jpg" />
+    <Resource Include="Media\stitch18.jpg" />
+    <Resource Include="Media\stitch19.jpg" />
+    <Resource Include="Media\stitch20.jpg" />
+    <Resource Include="Media\stitch21.jpg" />
+    <Resource Include="Media\stitch22.jpg" />
+    <Resource Include="Media\stitch23.jpg" />
+    <Resource Include="Media\stitch24.jpg" />
+    <Resource Include="Media\facebook.png" />
+    <Resource Include="Media\twitter.png" />
+    <Resource Include="Media\header1.png" />
+    <Resource Include="Media\header2.png" />
+    <Resource Include="Media\header3.png" />
+    <Resource Include="Media\header4.png" />
+    <Resource Include="Media\MenuBackground3.jpg" />
+    <Resource Include="Media\GallerySplash02.jpg" />
+    <Resource Include="Media\stitchgallerybutton5.png" />
+    <Resource Include="Media\stitchindexbutton5.png" />
+    <Resource Include="Media\stitchcounterbutton6.png" />
+    <Content Include="Media\Tiles\Media\stitch01.jpg" />
+    <Content Include="Media\Tiles\Media\stitch02.jpg" />
+    <Content Include="Media\Tiles\Media\stitch03.jpg" />
+    <Content Include="Media\Tiles\Media\stitch04.jpg" />
+    <Content Include="Media\Tiles\Media\stitch05.jpg" />
+    <Content Include="Media\Tiles\Media\stitch06.jpg" />
+    <Content Include="Media\Tiles\Media\stitch07.jpg" />
+    <Content Include="Media\Tiles\Media\stitch08.jpg" />
+    <Content Include="Media\Tiles\Media\stitch09.jpg" />
+    <Content Include="Media\Tiles\Media\stitch10.jpg" />
+    <Content Include="Media\Tiles\Media\stitch11.jpg" />
+    <Content Include="Media\Tiles\Media\stitch12.jpg" />
+    <Content Include="Media\Tiles\Media\stitch13.jpg" />
+    <Content Include="Media\Tiles\Media\stitch14.jpg" />
+    <Content Include="Media\Tiles\Media\stitch15.jpg" />
+    <Content Include="Media\Tiles\Media\stitch16.jpg" />
+    <Content Include="Media\Tiles\Media\stitch17.jpg" />
+    <Content Include="Media\Tiles\Media\stitch18.jpg" />
+    <Content Include="Media\Tiles\Media\stitch19.jpg" />
+    <Content Include="Media\Tiles\Media\stitch20.jpg" />
+    <Content Include="Media\Tiles\Media\stitch21.jpg" />
+    <Content Include="Media\Tiles\Media\stitch22.jpg" />
+    <Content Include="Media\Tiles\Media\stitch23.jpg" />
+    <Content Include="Media\Tiles\Media\stitch24.jpg" />
+    <Content Include="Media\Tiles\StitchCounterTile02.jpg" />
+    <Content Include="Media\Tiles\StitchCounterTile04.jpg" />
+    <Content Include="Media\Tiles\StitchGalleryTile02.jpg" />
+    <Content Include="Media\Tiles\StitchGalleryTile03.jpg" />
+    <Content Include="Media\Tiles\StitchIndexTile02.jpg" />
+    <Content Include="Media\Tiles\StitchIndexTile03.jpg" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\AboutBackground.png" />
+    <Resource Include="Media\FavIconDeSelected.png" />
+    <Resource Include="Media\FavIconSelected.png" />
+    <Resource Include="Media\stitch01.jpg" />
+    <Resource Include="Media\stitch02.jpg" />
+    <Resource Include="Media\stitch03.jpg" />
+    <Resource Include="Media\stitch04.jpg" />
+    <Resource Include="Media\stitch05.jpg" />
+    <Resource Include="Media\stitch06.jpg" />
+    <Resource Include="Media\stitch07.jpg" />
+    <Resource Include="Media\stitch08.jpg" />
+    <Resource Include="Media\stitch09.jpg" />
+    <Resource Include="Media\stitch10.jpg" />
+    <Resource Include="Media\stitch11.jpg" />
+    <Resource Include="Media\stitch12.jpg" />
+    <Resource Include="Media\stitch13.jpg" />
+    <Resource Include="Media\stitch14.jpg" />
+    <Resource Include="Media\StitchIndexBackground.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ArrayOfPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>1</StitchID>
+				<StitchName>Arrow Quiver Stitch</StitchName>
+				<Image>Media/stitch01.jpg</Image>
+				<Chart>Row1: *P4, K1, P1, K4* rep** to end
+Row2: *P3, K2, P2, K3* rep** to end
+Row3: *P2, K2, P1, K1, P2, K2* rep** to end
+Row4: *P1, K2, P2, K2, P2, K1* rep** to end
+Row5: *K2, P3, K3, P2* rep** to end
+Row6: *K1, P4, K4, P1* rep** to end
+Repeat these 6 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 10</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>2</StitchID>
+				<StitchName>Basket Weave</StitchName>
+				<Image>Media/stitch02.jpg</Image>
+				<Description>Super cute especially with thinner thread and smaller needles</Description>
+				<Chart>Row1: Knit
+Row2: K5 *P3, K5* rep** to end
+Row3: P5 *K3, P5* rep** to end
+Row4: K5 *P3, K5* rep** to end
+Row5: Knit
+Row6: K1 *P3, K5* rep** to last 4 stitches, P3, K1
+Row7: P1 *K3, P5* rep** to last 4 stitches, K3, P1
+Row8: K1 *P3, K5* rep** to last 4 stitches, P3, K1
+Repeat these 8 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 8 + 5</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>3</StitchID>
+				<StitchName>Cable 6x6</StitchName>
+				<Image>Media/stitch03.jpg</Image>
+				<Description></Description>
+				<Chart>Row1: K2 P6 K2
+Row2: P2 K6 P2
+Row3: K2 P6 K2
+Row4: P2 C6 P2
+Row5: K2 P6 K2
+Row6: P2 K6 P2
+Repeat these 6 rows for pattern</Chart>
+				<Difficulty>2:Intermediate</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 10</CO>
+				<Notes>Need cable needle or extra dp needle
+C6 = slip next 3 stitches on cable needle and hold to front or back.
+Knit the next three stitches from left needle then knit the stitches on cable needle.
+Cable will twist to the right if held to the front and to the left if held to the back.</Notes>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>4</StitchID>
+				<StitchName>Diagonal Rib</StitchName>
+				<Image>Media/stitch04.jpg</Image>
+				<Chart>Row1: K3 *P3, K3* rep** to end
+Row2: P3 *K3, P3* rep** to end
+Row3: K3 *P3, K3* rep** to end
+Row4: K1 *P3, K3* rep** to last 2 stitches, P2
+Row5: K2 *P3, K3* rep** to last stitch, P1
+Row6: K1 *P3, K3* rep** to last 2 stitches, P2
+Row7: K1 *P3, K3* rep** to last 2 stitches, P2
+Row8: K2 *P3, K3* rep** to last stitch, P1
+Row9: K1 *P3, K3* rep** to last 2 stitches, P2
+Row10: K3 *P3, K3* rep** to end
+Row11: P3 *K3, P3* rep** to end
+Row12: K3 *P3, K3* rep** to end
+Row13: P2 *K3, P3* rep** to last stitch, K1
+Row14: P1 *K3, P3* rep** to last 2 stitches, K2
+Row15: P2 *K3, P3* rep** to last stitch, K1
+Row16: P2 *K3, P3* rep** to last stitch, K1
+Row17: P1 *K3, P3* rep** to last 2 stitches, K2
+Row18: P2 *K3, P3* rep** to last stitch, K1
+Repeat these 18 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 6 + 3</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>5</StitchID>
+				<StitchName>Garter Stitch</StitchName>
+				<Image>Media/stitch05.jpg</Image>
+				<Chart>Knit every row</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Any number</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>6</StitchID>
+				<StitchName>King Charles Brocade</StitchName>
+				<Image>Media/stitch06.jpg</Image>
+				<Chart>Row1: K1 *P1, K9, P1, K1* rep** to end
+Row2: K1 *P1, K1, P7, K1, P1, K1* rep** to end
+Row3: K1 *P1, K1, P1, K5, P1, K1, P1, K1* rep ** to end
+Row4: P1 *P1, K1, P1, K1, P3, K1, P1, K1, P2* rep ** to end
+Row5: K1 *K2, P1, K1, P1, K1, P1, K1, P1, K3* rep** to end
+Row6: P1 *P3, K1, P1, K1, P1, K1, P4* rep** to end
+Row7: K1 *K4, P1, K1, P1, K5* rep** to end
+Row8: P1 *P3, K1, P1, K1, P1, K1, P4* rep** to end
+Row9: K1 *K2, P1, K1, P1, K1, P1, K1, P1, K3* rep** to end
+Row10: P1 *P1, K1, P1, K1, P3, K1, P1, K1, P2* rep ** to end
+Row11: K1 *P1, K1, P1, K5, P1, K1, P1, K1* rep ** to end
+Row12: K1 *P1, K1, P7, K1, P1, K1* rep** to end
+Repeat these 12 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 12 + 1</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>7</StitchID>
+				<StitchName>Ladder stitch</StitchName>
+				<Image>Media/stitch07.jpg</Image>
+				<Chart>Row1: Knit
+Row2: Purl
+Row3: K1 *P2, K1* rep** to end
+Row4: Purl
+Repeat these 4 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Mulitples of 3 + 1</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>8</StitchID>
+				<StitchName>Ribbing (2x2)</StitchName>
+				<Image>Media/stitch08.jpg</Image>
+				<Chart>Row1: *K2 P2* rep** to end
+Row2: *P2 K2* rep** to end
+Repeat </Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 4</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>9</StitchID>
+				<StitchName>Simple Eyelet</StitchName>
+				<Image>Media/stitch09.jpg</Image>
+				<Chart>Row1: Knit
+Row2: Purl
+Row3: K1 *k2tog, yo, K2* rep** to last 2 stitches, K2
+Row4: Purl
+Row5: Knit
+Row6: Purl
+Row7: K1 *K2, ssk, yo* rep** to last 2 stitches, K2
+Row8: Purl
+Repeat these 8 rows for pattern</Chart>
+				<Difficulty>2:Intermediate</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 4 + 3</CO>
+				<Notes>k2tog  = knit 2 together (through front of next two stiches at once)
+yo = yarn over (wrap the yarn from back to front counterclockwise)
+ssk = slip slip knit, slip next two stitches onto the right needle (one at a time) as if to knit, insert left needle into fronts of both stitches and knit them together</Notes>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>10</StitchID>
+				<StitchName>Stockinette Stitch</StitchName>
+				<Image>Media/stitch10.jpg</Image>
+				<Chart>Row1: Knit
+Row2: Purl
+Repeat</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Any number</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>11</StitchID>
+				<StitchName>Trellis Stitch</StitchName>
+				<Image>Media/stitch11.jpg</Image>
+				<Chart>Row1: K1, P3 *sl3 purlwise with yarn at front, P3* rep ** to last stitch, K1
+Row2: P1, K3 *sl3 purlwise with yarn at back, K3* rep** to last stitch, P1
+Row3: K1, P3 *K3, P3* rep** to last stitch, K1
+Row4: P1, K3 *P3, K3* rep** to last stitch, P1
+Row5: K5 *pull up loops (see note), K5* rep** to end
+Row6: K1, P3 *K3, P3* rep** to last stitch, K1
+Row7: P1 *sl3 purlwise with yarn at front, P3* rep** to last 4 stitches, sl3 purlwise, P1
+Row8: K1 *sl3 purlwise with yarn at back, K3* rep** to last 4 stitches, sl3 purlwise, K1
+Row9: P1, K3 *P3, K3* rep** to last stitch, P1
+Row10: K1, P3 *K3, P3* rep** to last stitch, K1
+Row11: K2 *pull up loops, K5* rep** to last 3 stitches, pull up loops, K2
+Row12: P1, K3 *P3, K3* rep** to last stitch, P1
+Repeat these 12 rows for pattern</Chart>
+				<Difficulty>3:Hard</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 6 + 5</CO>
+				<Notes>Pull up loops: 
+note the loops created by the slipped stitches below the stitch you are about to work.
+Insert right needle upwards through both loops and knit the next stitch, pulling the stitch through the 2 loops, letting them off the needles and keeping the knitted stitch on the left needle.</Notes>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>12</StitchID>
+				<StitchName>Twisted Eyelet Ribbing</StitchName>
+				<Image>Media/stitch12.jpg</Image>
+				<Chart>Row1: K3 *P3 K3* rep** to end
+Row2: P3 *K3, yo, P3* rep** to end
+Row3: K3 *P4, K3* rep** to end
+Row4: P3 *K1, K2tog, yo, K1, P3* rep** to end
+Row5: K3 *P2, p2tog, K3* rep** to end
+Row6: P3 *K1, yo, k2tog, P3* rep** to end
+Repeat these 6 rows</Chart>
+				<Difficulty>2:Intermediate</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 6 + 3</CO>
+				<Notes>yo = yarn over (wrap the yarn from back to front counterclockwise)
+k2tog  = knit 2 together (through front of next two stiches at once)
+p2tog = purl 2 together (through front of next 2 stitches at once)</Notes>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>13</StitchID>
+				<StitchName>Waffle Stitch</StitchName>
+				<Image>Media/stitch13.jpg</Image>
+				<Chart>Row1: *K2, P1* rep** to last 2 stitches, K2
+Row2: K3 *P2, K1* rep** to last 2 stitches, K2
+Row3: *K2, P1* rep** to last 2 stitches, K2
+Row4: Knit
+Repeat these 4 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 6 + 2</CO>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchID>14</StitchID>
+				<StitchName>Waffle Stitch2</StitchName>
+				<Image>Media/stitch14.jpg</Image>
+				<Description>Makes nice thick texture</Description>
+				<Chart>Row1: Knit
+Row2: *K1, P1* rep** to last stitch, K1
+Repeat these 2 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Odd number of stitches</CO>
+			</Item>
+		</Stitches>
+	</Page>
+</ArrayOfPage>

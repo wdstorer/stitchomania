@@ -1,0 +1,166 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Stitchmania.StitchIndex"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Stitchmania"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+<!--
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+-->
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="groupHeaderTemplate">
+            <Border Background="{StaticResource PhoneAccentBrush}" Padding="{StaticResource PhoneTouchTargetOverhang}">
+                <TextBlock Text="{Binding Title}" Style="{StaticResource PhoneTextLargeStyle}"/>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="groupItemTemplate" >
+            <Border Background="{StaticResource PhoneAccentBrush}" Margin="{StaticResource PhoneTouchTargetOverhang}" Padding="{StaticResource PhoneTouchTargetOverhang}">
+                <TextBlock Text="{Binding Title}" Style="{StaticResource PhoneTextLargeStyle}"/>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="groupHeaderTemplateAlpha">
+            <Border Background="Transparent">
+                <Border Background="{StaticResource PhoneAccentBrush}" Width="75" Height="75" HorizontalAlignment="Left">
+                    <TextBlock Text="{Binding Title}" 
+                                           Foreground="{StaticResource PhoneForegroundBrush}" 
+                                           Style="{StaticResource PhoneTextExtraLargeStyle}"
+                                           VerticalAlignment="Bottom"/>
+                </Border>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="groupItemTemplateAlpha">
+            <Border Background="{StaticResource PhoneAccentBrush}" Margin="{StaticResource PhoneTouchTargetOverhang}"  Width="75" Height="75" HorizontalAlignment="Center">
+                <TextBlock Text="{Binding Title}" 
+                                       FontFamily="{StaticResource PhoneFontFamilySemiBold}"
+                                       FontSize="36"
+                                       Margin="{StaticResource PhoneTouchTargetOverhang}"
+                                       Foreground="{StaticResource PhoneForegroundBrush}"                                        
+                                       VerticalAlignment="Bottom"/>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="stitchesListHeader">
+            <Border Background="Purple">
+                <TextBlock Text="Stitches" />
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="stitchesListFooter">
+            <Border Background="Green">
+                <TextBlock Text="Footer" />
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="stitchesItemTemplate">
+            <Grid x:Name="gridLayout" Background="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Image Source="{Binding Stitches[0].Image}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2"  VerticalAlignment="Top">
+                    <Button Content="{Binding  Stitches[0].StitchName}" Foreground="White" BorderBrush="White" Name="btnStitch" Click="btnStitch_Click" />
+                </StackPanel>
+                <StackPanel Grid.Row="1">       
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+    <!-- <local:DeferredLoadContentControl> -->
+        <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Panorama Name="PanoramaControl" Title="STITCHO'MANIA" Foreground="White">
+            <controls:Panorama.TitleTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Content, RelativeSource={RelativeSource TemplatedParent}}" FontSize="100" Margin="0,50,0,0" />
+                </DataTemplate>
+            </controls:Panorama.TitleTemplate>
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="Media\StitchIndexBackground.png"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="stitches" Background="#75000000">
+                <toolkit:LongListSelector x:Name="stitchesListGroupsAlpha" Background="Transparent"                   
+                                          ItemTemplate="{StaticResource stitchesItemTemplate}"                                    
+                                          GroupHeaderTemplate="{StaticResource groupHeaderTemplateAlpha}"                    
+                                          GroupItemTemplate="{StaticResource groupItemTemplateAlpha}">
+                    <toolkit:LongListSelector.GroupItemsPanel>
+                        <ItemsPanelTemplate>
+                            <toolkit:WrapPanel />
+                        </ItemsPanelTemplate>
+                    </toolkit:LongListSelector.GroupItemsPanel>
+                </toolkit:LongListSelector>
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="difficulty"  Background="#75000000">
+                <toolkit:LongListSelector x:Name="stitchesListGroupsDifficulty" Background="Transparent"                   
+                                          ItemTemplate="{StaticResource stitchesItemTemplate}"                                     
+                                          GroupHeaderTemplate="{StaticResource groupHeaderTemplate}"                    
+                                          GroupItemTemplate="{StaticResource groupItemTemplate}" >
+                </toolkit:LongListSelector>
+            </controls:PanoramaItem>
+            <!--Panorama item three-->
+            <controls:PanoramaItem Header="favorites"  Background="#75000000">
+                <toolkit:LongListSelector x:Name="stitchesListGroupsFavs" Background="Transparent"                   
+                                          ItemTemplate="{StaticResource stitchesItemTemplate}"                                     
+                                          GroupHeaderTemplate="{StaticResource groupHeaderTemplateAlpha}"                    
+                                          GroupItemTemplate="{StaticResource groupItemTemplateAlpha}" >
+                    <toolkit:LongListSelector.GroupItemsPanel>
+                        <ItemsPanelTemplate>
+                            <toolkit:WrapPanel />
+                        </ItemsPanelTemplate>
+                    </toolkit:LongListSelector.GroupItemsPanel>
+                </toolkit:LongListSelector>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+    <!-- </local:DeferredLoadContentControl> -->
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ArrayOfPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchIndex>23</StitchIndex>
+				<StitchID>23</StitchID>
+				<StitchName>Arrow Quiver Lace</StitchName>
+				<Image>Media/stitch23.jpg</Image>
+				<Description>Open stitch with a very elegant appearance. Short 4 row pattern</Description>
+				<Chart>Row1: K1, *K1, K2tog, yo, K1, yo, ssk, K1* rep** to last stitch, K1
+Row2: Purl
+Row3: K1, *K2tog, yo, K3, yo, ssk* rep** to last stitch, K1
+Row4: Purl</Chart>
+				<Difficulty>2:Intermediate</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 7 + 2</CO>
+				<Notes>k2tog  = knit 2 together (through front of next two stiches at once)
+yo = yarn over (wrap the yarn from back to front counterclockwise)
+ssk = slip slip knit, slip next two stitches onto the right needle (one at a time) as if to knit, insert left needle into fronts of both stitches and knit them together</Notes>
+			</Item>
+		</Stitches>
+	</Page>
+	<Page>
+		<Stitches>
+			<Item>
+				<StitchIndex>23</StitchIndex>
+				<StitchID>1</StitchID>
+				<StitchName>Arrow Quiver stitch</StitchName>
+				<Image>Media/stitch01.jpg</Image>
+				<Chart>Row1: *P4, K1, P1, K4* rep** to end
+Row2: *P3, K2, P2, K3* rep** to end
+Row3: *P2, K2, P1, K1, P2, K2* rep** to end
+Row4: *P1, K2, P2, K2, P2, K1* rep** to end
+Row5: *K2, P3, K3, P2* rep** to end
+Row6: *K1, P4, K4, P1* rep** to end
+Repeat these 6 rows for pattern</Chart>
+				<Difficulty>1:Easy</Difficulty>
+				<Favorite>0</Favorite>
+				<CO>Multiples of 10</CO>
+			</Item>
+		</Stitches>
+	</Page>
+</ArrayOfPage>
